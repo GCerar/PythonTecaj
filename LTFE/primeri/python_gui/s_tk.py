@@ -56,17 +56,3 @@ if __name__ == '__main__':
     root.geometry('250x150')
     Application(root)
     root.mainloop()
-        
-        
-
-# inicializacija podatkovne baze
-#conn = sqlite3.connect(':memory:')
-#c = conn.cursor()
-
-#c.execute('CREATE TABLE osebe (ime TEXT, starost INTEGER)')
-#conn.commit()
-
-
-#root = tk.Tk()
-#app = Application(master=root)
-#app.mainloop()
